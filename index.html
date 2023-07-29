@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Pagina web de blog de café">
+    <title>Document</title>
+
+    <!-- PREFETCH carga la siguiente pagina-->
+
+    <link rel="prefetch" href="nosotros.html" as="document">
+    <!-- PRELOAD carga los siguientes elementos primordialmente-->
+
+    <link rel="preload" href="normalize.css" as="style">
+    <link rel="stylesheet" href="normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet" crossorigin="crossorigin" as="font">
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="stylesheet" href="styles.css">
+
+
+    
+    
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="contenedor">
+
+            <div class="barra">
+
+                <a class="logo " href="index.html">
+
+                    <h1 class="logo__nombre no-margin centrar-texto">Home<span class="logo__bold">Market</span></h1>
+                </a>
+
+                <nav class="navegacion">
+
+                    <a href="nosotros.html" class="nevegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="nevegacion__enlace">Productos</a>
+                    <a href="contacto.html" class="nevegacion__enlace">Contacto</a>
+
+                </nav>
+
+            </div>
+
+        </div>
+
+        <div class="header__texto">
+
+            <h2 class="no-margin">Economiza en cada compra</h2>
+            <p class="no-margin">Encuentra el ahorro en cada compra: Tu supermercado de ofertas imbatibles.</p>
+        </div>
+    </header>
+
+    
+
+
+    <footer class="footer">
+        
+        <div class="contenedor">
+
+            <div class="barra">
+
+                <a class="logo " href="index.html">
+
+                    <h1 class="logo__nombre no-margin centrar-texto">Home<span class="logo__bold">Market</span></h1>
+                </a>
+
+                <nav class="navegacion">
+
+                    <a href="nosotros.html" class="nevegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="nevegacion__enlace">Productos</a>
+                    <a href="contacto.html" class="nevegacion__enlace">Contacto</a>
+
+                </nav>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+</body>
+
+</html>
